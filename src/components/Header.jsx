@@ -83,39 +83,39 @@ export default function Header(props) {
               <Grid container spacing={0}>
                 <Grid item={true} xs={2.25}>
                   <Item sx={{ boxShadow: 0 }} style={{ cursor: "pointer" }}>
-                    <link href="#expertise">
-                      <a>EXPERTISE</a>
-                    </link>
+                    
+                      <a href="#expertise" style={{textDecorationLine:"none",color:"#F7F7F7"}}>EXPERTISE</a>
+                    
                   </Item>
                 </Grid>
                 <Grid item={true} xs={2.25}>
                   <Item sx={{ boxShadow: 0 }} style={{ cursor: "pointer" }}>
-                    <link href="#portfolio">
-                      <a>PORTFOLIO</a>
-                    </link>
+                   
+                      <a href="#portfolio" style={{textDecorationLine:"none",color:"#F7F7F7"}}>PORTFOLIO</a>
+                    
                   </Item>
                 </Grid>
                 <Grid item={true} xs={3}>
                   <Item sx={{ boxShadow: 0 }} style={{ cursor: "pointer" }}>
-                    <link href="#poster">
-                      <a>
+                   
+                      <a href="#poster">
                         <img src="/Logo.svg"  alt='title'/>
                       </a>
-                    </link>
+                    
                   </Item>
                 </Grid>
                 <Grid item={true} xs={2.25}>
                   <Item sx={{ boxShadow: 0 }} style={{ cursor: "pointer" }}>
-                    <link href="#award">
-                      <a>AWARDS</a>
-                    </link>
+                   
+                      <a href="#award" style={{textDecorationLine:"none",color:"#F7F7F7"}}>AWARDS</a>
+                    
                   </Item>
                 </Grid>
                 <Grid item={true} xs={2.25}>
                   <Item sx={{ boxShadow: 0 }} style={{ cursor: "pointer" }}>
-                    <link href="#contact">
-                      <a>CONTACT US</a>
-                    </link>
+                    
+                      <a href="#contact" style={{textDecorationLine:"none",color:"#F7F7F7"}}>CONTACT US</a>
+                    
                   </Item>
                 </Grid>
               </Grid>

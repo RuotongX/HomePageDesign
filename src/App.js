@@ -11,7 +11,7 @@ function App() {
     <div>
       
       <div id="poster">
-        {/* <Header /> */}
+        <Header />
       </div>
       <DynamicPoster />
 
