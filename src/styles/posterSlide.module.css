@@ -1,0 +1,49 @@
+@keyframes animatedBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 0 15%;
+    }
+  }
+.container {
+    width: 100%;
+    height: calc(100vh + 64px);
+    margin-top: -64px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    background-image: linear-gradient(#59bebe13, #92cccf13), url('../../public/1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: animatedBackground 2s linear infinite alternate;
+}
+
+
+.details {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #f7f7f7;
+    background: linear-gradient(transparent, black);
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 93.75%;
+    height: 47.5%;
+}
+
+.box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:1.5%;
+    width: 93%;
+    
+}
