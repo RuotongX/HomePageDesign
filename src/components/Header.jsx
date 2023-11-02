@@ -2,17 +2,15 @@ import * as React from "react";
 import PropTypes from "prop-types";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
 import CssBaseline from "@mui/material/CssBaseline";
 import useScrollTrigger from "@mui/material/useScrollTrigger";
 import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
 import Slide from "@mui/material/Slide";
 import Paper from "@mui/material/Paper";
 import {styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
 import "@fontsource/syne/700.css";
-import { ThemeProvider, createTheme,createMuiTheme } from "@mui/material/styles";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
 
 
 
@@ -56,7 +54,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 
 export default function Header(props) {
-  const [display, setdisplay] = React.useState(true);
+  
   const theme = createTheme({
     
     typography: {

@@ -5,10 +5,9 @@ import "@fontsource/oxygen-mono/400.css";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
 import Paper from "@mui/material/Paper";
 import { styled } from "@mui/material/styles";
-import { useSpring, animated,config } from "react-spring";
+import { useSpring, animated } from "react-spring";
 
 function Posterslide(props) {
   const titleAnimate = useSpring({
